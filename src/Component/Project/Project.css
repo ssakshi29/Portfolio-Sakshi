@@ -1,0 +1,40 @@
+.card{
+    border:1px solid rgb(131, 179, 179);
+    width:400px;
+   
+    margin:20px 40px;
+    border-radius:10px;
+    overflow: hidden;
+    min-height:fit-content;
+}
+
+.card-title{
+    display:flex;
+    font-size: medium;
+    font-weight: bold;
+   
+}
+
+.card-title-left
+{
+    flex:1;
+    
+}
+.card-title-right
+{
+    position: absolute;
+  right: 0;
+    flex:1;
+   
+}
+.bttn{
+    display: flex;
+    flex:wrap;
+
+}
+.btn1{ 
+    height: 25px;
+    width: 100px;
+    padding: 1px 1px;
+    border-radius: 10px;
+}

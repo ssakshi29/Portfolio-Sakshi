@@ -1,0 +1,18 @@
+.footer{
+   text-align: center;
+   border:1px solid rgba(0, 0, 0, 0);
+   margin:0;
+   padding:20px;
+   bottom:0;
+   background-color:rgb(22, 22, 43);
+   color:whitesmoke;
+}
+
+.footer-top {
+    
+}
+.footer-bottom{
+    
+    font-size: large;
+    font-weight: bold;
+}

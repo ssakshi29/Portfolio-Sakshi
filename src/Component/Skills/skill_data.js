@@ -1,0 +1,48 @@
+export const skills=[
+{
+  id:"1",
+  skill:"C++",
+  width:"85"
+},
+{
+    id:"2",
+    skill:"Java",
+    width:"70"
+  },
+  {
+    id:"3",
+    skill:"C",
+    width:"70"
+  },
+  {
+    id:"1",
+    skill:"C++",
+    width:"85"
+  },
+  {
+      id:"2",
+      skill:"Java",
+      width:"70"
+    },
+    {
+      id:"3",
+      skill:"C",
+      width:"70"
+    },
+    {
+        id:"1",
+        skill:"C++",
+        width:"85"
+      },
+      {
+          id:"2",
+          skill:"Java",
+          width:"70"
+        },
+        {
+          id:"3",
+          skill:"C",
+          width:"70"
+        }
+
+];

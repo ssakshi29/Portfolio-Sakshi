@@ -1,0 +1,76 @@
+.main{
+    display: flex;
+    background-color: rgb(131, 179, 179);
+    -webkit-box-shadow: -0.5px 12px 7px 1.5px #ddd;
+-moz-box-shadow: -0.5px 12px 7px 1.5px #ddd;
+box-shadow: -0.5px 12px 7px 1.5px #ddd;
+
+}
+.left{
+    flex:1;
+}
+
+.right{
+    flex:1;
+    background-color:rgb(22, 22, 43);
+    clip-path: polygon(51.4% 0%, 100% 0%, 100% 55.3%, 100% 100%, 49.4% 99.8%, 11.2% 48%);   
+}
+.Portfolio-container
+{
+    display:flex;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
+   
+    min-height: fit-content;
+    margin-bottom:30px;
+    
+   
+}
+
+.col a{
+    margin-right:10px;
+    
+}
+.col{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.profile-details-name{
+    font-size:24px;
+    font-family: "Poppins SemiBold";
+}
+
+.role{
+    display:flex;
+    flex-direction: column;
+    margin:14px 0px 24px 0;
+}
+.role h3{
+    font-family:cursive;
+}
+
+.profile-content{
+    margin-bottom:20px;
+    margin-left:50px;
+}
+
+.hand {
+    display: inline-block;
+    animation: wiggle 0.4s infinite;
+}
+
+@keyframes wiggle {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(7deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-7deg);}
+    100% {transform: rotate(0deg);}
+}
+
+ .highlighted-btn{
+    background-color:cornsilk;
+}
+.highlighted-btn:hover{
+    background-color: #467896;
+}
